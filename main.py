@@ -1,13 +1,12 @@
 from datetime import date
 import time
 
+
 def endGame():
   while True:
-    x = input()
     print()
-    print("The game has ended, thank you for participating.")
+    x= input("""To try again please click Stop on top right page and click Run """)
     print()
-    print("To play again click Stop on top right page and click Run")
     continue
 
 print("Welcome to Generation Generator!")
@@ -123,4 +122,5 @@ while True:
         continue
 
 
-endGame()
+if __name__ == "__main__":
+  endGame()
